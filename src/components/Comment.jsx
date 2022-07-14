@@ -14,7 +14,7 @@ export function Comment({content, onDeleteComment} ) {
     }
 
     function handleDeleteComment() {
-        onDeleteComment()
+        onDeleteComment(content)
     }
 
     return (
